@@ -1,0 +1,111 @@
+.nav{
+    min-height:8%;
+    width: 100%;
+    border-top: 3px solid rgb(245, 159, 2);
+    box-shadow: 0px 1px 5px rgba(31, 29, 29, 0.288);
+    display: flex;
+    position:fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: flex-start;
+    background-color: rgb(252, 251, 251);
+    
+}
+
+
+.logo{
+    width:20%;
+    height: 25px;
+    }
+
+ 
+.navbar{
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+    justify-content: flex-start;
+    padding: 0px 60px;
+   }
+
+
+.nav-item{
+    margin: 0px 5px;
+    font-weight: 300;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: rgba(85, 83, 83, 0.993);
+    transition: 0.2s linear infinite ;
+
+}
+
+.nav-btn{
+    border-radius: 25px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: rgb(224, 232, 235);
+   }
+
+ .logoname {
+    font-weight:bold;
+    color: black;
+    font-size: 15px;
+ }
+
+.navbar form input{
+    min-width: 320%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    border-radius: 3%;
+    border: 1px solid rgba(139, 132, 132, 0.986);
+    outline: none;
+    transition: 0.3s linear ;
+ }
+
+ .navbar form input:hover{
+    border-color: rgb(15, 155, 211);
+    box-shadow: 0px 1px 5px 3px rgba(165, 223, 247, 0.863);
+   
+ }
+
+
+ .navbar form {
+    position: relative;
+    top: 0;
+    left: 0;
+ }
+ .navbar form .search{
+   position: absolute;
+   top: 10px;
+   left:10px;
+ }
+
+ .signin{
+   margin-left: 500px;
+   text-decoration: none;
+   outline: none;
+   border: 2px solid rgba(109, 167, 190, 0.548);
+   border-radius: 5%;
+   width: 60px;
+   height: 30px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgba(7, 7, 8, 0.527);
+   background-color: rgba(109, 167, 190, 0.548);
+   font-size: medium;
+   font-weight: 400;
+
+ }
+

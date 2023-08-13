@@ -1,0 +1,70 @@
+
+.ask-qn{
+    margin-top: 8%;
+    margin-left: 0%;
+    min-width: 1000px;
+    height: 10px;
+}
+.ask-head h1{
+    margin-left: 20px;
+}
+.ask-container{
+   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
+    rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 3%;
+}
+
+.qn-title{
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 10px 10px;
+}
+
+
+
+.qn-title p,h4 {
+    margin: 0%;
+    font-size: 14px;
+    padding: 0px 0px;
+    color: black;
+}
+
+.qn-title p{
+    color: black;
+    font-weight: 600;
+}
+
+.qn-title input{
+    border: 1px solid rgb(150, 149, 149);
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 9px 0px;
+  }
+   .qn-title .text-area{
+    border: 1px solid rgb(150, 149, 149);
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 50px 0px;
+
+  } 
+
+
+  .btn{
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10px 10px;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+
+  .qn-title input:focus{
+    border-color: aqua;
+  }
+  .qn-title .text-area:focus{
+    border-color: aqua;
+  }

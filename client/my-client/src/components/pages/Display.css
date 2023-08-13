@@ -1,0 +1,106 @@
+.view-ans{
+    margin-top: 0%;
+    margin-left: 28%;
+    width: 100%;
+    height: 50%;
+}
+
+.view-container h1{
+    margin-top: 0%;
+    padding: 0px 0px;
+}
+
+
+
+
+.view-container2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px;
+   
+}
+
+.logo2{
+    width: 150px;
+    cursor:pointer;
+    
+ 
+}
+
+ .view-body{
+    padding: 2px 0px;
+    }
+
+    .view-body p{
+        padding: 2px 0px;
+        margin-left: 10px;
+    }  
+
+ .view-user{
+    display: flex;
+    padding: 10px 20px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 170%;
+    margin-top: -20%;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.view-user-bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    margin-top: 1%;
+    margin: 0%;
+}
+
+.view-user-bio h1{
+    padding: 0px 2px;
+    margin: 0%;
+    font-size: 13px;
+}
+
+.your-ans textarea{
+  width: 280%;
+  height: 200px;
+  padding: 0px 0px;
+  border: 1px solid rgb(150, 149, 149);
+  outline: none;
+  border-radius: 4px;
+  margin-top: 0%;
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+
+
+}
+
+.your-ans textarea:focus{
+    border-color: aqua;
+  }
+
+.end{
+    width: 500%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.btn-sp{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.btn-1{
+   /*  border: none;
+    outline: none;
+    color: rgb(115, 116, 117); */
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+}

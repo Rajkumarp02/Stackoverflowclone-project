@@ -1,0 +1,119 @@
+.Right-side{
+    margin-left:1500x;
+    float:right;
+    margin-top: 0%;
+   
+}
+
+ .right-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0%;
+ 
+ }
+
+ .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 1px solid  rgb(248, 219, 208);
+  min-width: 100%;
+  height: 50%;
+
+ }
+
+ .right-div{
+  padding: 1px 10px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0%;
+ 
+ }
+
+ .right-1 .right-div p {
+   min-width: 120%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-right: 60%;
+    }  
+
+    .right h4{
+    border: 1px ;
+    min-width: 89%;
+    padding: 10px 19px;
+    margin: 0% 10px;
+    box-shadow: #e6c39ab4 1.90px 1.90px 2.3px;
+    background-color: #e6c39ab4;
+    border-radius: 1px;
+    display: flex;
+     justify-content: flex-start;
+     align-items: center;
+    }
+
+
+.pen{
+    width: 5%;
+    height: 20px;
+    margin-left: 87%;
+    padding: 10px 1px;
+    }
+
+.msg{
+   
+        width: 5%;
+        height: 20px;
+        margin-left: 87%;
+        padding: 10px 1px;
+        
+}
+
+.stack{
+    width: 5%;
+    height: 20px;
+    margin-left: 87%;
+    padding: 10px 1px;
+}
+
+.tags{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.tags h3{
+    font-size: 18px;
+    color: rgb(71, 69, 69);
+    font-weight: 400;
+
+}
+.name-tag{
+ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.name-tag p{
+    background-color: rgba(211, 234, 241, 0.966);
+    padding: 4px 10px;
+    color: rgba(87, 200, 235, 0.966);
+    border-radius: 3px;
+    transition: 0.1s;
+    }
+    .name-tag p:hover{
+        background-color: rgba(175, 227, 245, 0.966);
+        cursor: pointer;
+    }

@@ -1,0 +1,264 @@
+
+
+.sidebar-1{
+    max-width: 200px;
+    display: flex;
+    height: 1000px;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid rgb(218, 206, 206);
+    margin-right: 20%;
+    margin-top: -100px;
+    
+    
+}
+.Tag-sidebar-1{
+    max-width: 200px;
+    display: flex;
+    height: 1000px;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid rgb(218, 206, 206);
+    margin-right: 20%;
+    margin-top: 35px;
+    
+    
+}
+ .sidebar-2{
+    margin-left: 285%;
+    min-width:200%;
+    padding: 24px 20px;
+    height: 100vh;
+    box-sizing: border-box;
+
+   
+} 
+
+   
+.sidebar-3{
+    margin-left: 15%; 
+    margin-top: 10%;
+    width: 250px;
+    height: 20px;
+   }  
+   
+   .Tag-sidebar-3{
+    margin-left: -71%; 
+    margin-top: 10%;
+    min-width: 600%;
+    height: 100%;
+   padding: 10px 10px;
+   justify-content: flex-start;
+   align-items: flex-start;
+   text-align: start;
+   }  
+
+   .p-tags{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    min-width: 350px;
+    height: 50%;
+    margin-left: -4%;
+   }
+
+   .p-tags-in{
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    min-width: 90%;
+    height: 50%;
+    margin: 20px 50px;
+    padding: 34px 10px;
+    
+   }
+   .p-tags-in-2{
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+   }
+   
+   
+  .qn-1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    padding: 10px 10px;
+    margin: 0px 0px;
+    width: 250%;
+    height: 100%;
+    } 
+
+    .qn-1 p{
+        margin-right: 200px;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .qn-link{
+        text-decoration: none;
+        color: white;
+        border: 1px solid;
+        border-radius: 5px;
+        background-color: blue;
+        padding: 10px 10px;
+        margin-left: 100px;
+        font-size: 13px;
+       
+    }
+
+.ans-container{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 250%;
+    height: 100%;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    font-weight: bold;
+    background-color: #e6c39ab4;
+    
+}
+
+.votes{
+color: black;
+padding: 10px 20px;
+}
+
+.answer{
+color: black;
+padding: 10px 10px; 
+}
+.ask{
+    color: black;
+    padding: 10px 1px;
+    margin-top: 3%;
+  }
+
+.names-tag{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.names-tag p{
+    background-color: rgba(211, 234, 241, 0.966);
+    padding: 4px 6px;
+    color: rgba(87, 200, 235, 0.966);
+    border-radius: 3px;
+    transition: 0.1s;
+}
+
+.asked{
+    font-size: 14px;
+}
+
+.link-qn{
+  text-decoration: none;
+   padding: 10px 1px;
+   color: rgb(72, 184, 228);
+
+}
+  
+
+/* User.css */
+
+.user{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+   
+  }
+
+  .user-in-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 5px;
+    margin: 10px 0px;
+  }
+  .user-in-2 h5{
+    padding: 10px 10px;
+    color: black;
+    font-size: 14px;
+  }
+
+  .user-in-2 h1{
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 5px 13px;
+    color: black;
+    background-color: rgb(177, 184, 187);
+    border: none;
+    font-size: 20px;
+
+  }
+
+  /* Edit Profile css */
+  .Edit {
+    width: 90%;
+  }
+  .Edit h1{
+    border-bottom: 1px solid rgb(194, 191, 191);
+    padding: 10px 1px;
+  }
+  
+  .Edit form{
+    border: 1px solid rgb(194, 191, 191) ;
+    padding: 10px 10px;
+  }
+  
+  .Edit form .design-form{
+    margin-left: 30px ;
+  }
+
+  .Edit form .design-form input[type='text']{
+    width: 30%;
+    border:1px solid rgb(194, 191, 191);
+    outline: none;
+    padding: 8px 1px;
+    border-radius: 3px;
+  }
+
+  .b-t-n{
+    padding: 10px 10px;
+    border: 1px solid ;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(10, 177, 243);
+    cursor: pointer;
+  }
+  .b-t-n-2{
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(10, 177, 243);
+
+  }
+  .edit-profile{
+    margin-left: 80%;
+    margin-top: -50px;
+  }
+
+  .Top-get-user{
+    margin-left: 8%;
+    margin-top: -6%;
+    padding: 5px 0px;
+   }
+   .Top-get-user h1{
+    padding: 0 0;
+    margin: 0px 0px;
+   }
+   .Top-get-user p{
+    padding: 0 0;
+    margin: 0px 0px;
+   }
+   
+
